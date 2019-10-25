@@ -6,6 +6,6 @@ USE burger_db;
 CREATE TABLE burgers (
   id INTEGER(11) NOT NULL AUTO_INCREMENT,
   burger_name VARCHAR(255) NULL,
-  devoured INTEGER(11) NULL,
+  devoured BOOLEAN,
   PRIMARY KEY (id)
 );
